@@ -1,0 +1,45 @@
+@media only screen and (max-width: 980px){
+ .home{
+   min-height: 40vh;
+ }
+ .home-row {
+  height: 40vh;
+ }
+ 
+ .home-col {
+  height: 30vh;
+ }
+ 
+ .about{
+   height: 30vh;
+ }
+ 
+ .licensing-info{
+   height: 50vh;
+ }
+ 
+ .basic h3{
+   margin-top: 49%;
+ }
+ 
+ .service{
+   height: 50vh;
+ }
+ 
+ .service .col-4{
+   padding: 10px 5px;
+   
+ }
+ 
+ .contact{
+   height: 30vh;
+ }
+ 
+ .contact-div{
+   height: 30vh;
+ }
+ 
+ .contact-div #submit-massage{
+   top: 55%;
+ }
+}
