@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=980">
+
+  <title>HTML</title>
+  
+  <!-- font awsome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- bootstrap cdn -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- responsive css -->
+  <link rel="stylesheet" href="responsive/res-mobile.css">
+</head>
+
+<body>
+  
+  <div id="herro">
+    
+    
+    <!-- header start -->
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="logo-div col-6">
+            <img src="img/logo.jpg" alt="">
+          </div>
+          
+          <div class="menu col-6">
+            <div class="menu-icon" onclick="menuBtn()"><i class="fas fa-bars"></i></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+    
+    <!-- home start -->
+    <div class="home">
+      <div class="container">
+        <div class="row home-row">
+          <div class="col-12 home-col">
+            <div class="home-text">
+              <h1>Azmaeen Records </h1>
+              <p>All sounds made with only voice</p>
+            </div>
+            
+            <div class="home-btn">
+              <button type="button" onclick="aboutBtn()">about us</button>
+              <button type="submit" onclick="contactBtn()">contact us</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <!-- about start -->
+    <div class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="about-text">
+              <h1>about us</h1>
+              <h4>CEO and Founder: <i>Sarfaraz Naheed</i> </h4>
+              <p>Azmaeen Records is a Islamic record label company founded in Bangladesh in 2014 by Sarfaraz Naheed. Over its first 4 years of operation, Azmaeen Records earned a reputation as one of the most important record label.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- about end -->
+    
+    
+    
+    <!-- Licensing Info start -->
+    
+    <div class="licensing-info">
+      <div class="container">
+        <h1 class="lince">Licensing Info</h1>
+        <div class="row">
+          <div class="col-4 basic ">
+            <h3>Basic License</h3>
+            <h1>$29.99</h1>
+            <h4>Non-Profit Use</h4>
+            
+            <ul>
+              <li>Untagged MP3 file</li>
+              <li> Non-Profit use only</li>
+            </ul>
+            
+            <button type="submit" onclick="readBtn()">READ LICENSE</button>
+          </div>
+          
+          
+          
+          
+          <div class="col-4 popular">
+            <h2>★POPULAR</h2>
+             <h3>Premium License</h3>
+            <h1>$49.99</h1>
+            <h4>Non-Profit + Commercial Use</h4>
+            
+            <ul>
+              <li>Untagged MP3 + WAV file</li>
+              <li>Commercial Use</li>
+            </ul>
+            
+            <button type="submit" onclick="readBtn()">READ LICENSE</button>
+          </div>
+          
+          
+          
+          
+          
+          <div class="col-4 premium">
+             <h3>Premium + Stems</h3>
+            <h1>$99.99</h1>
+            <h4>Non Profit + Commercial Use</h4>
+            
+            <ul>
+              <li>Untagged MP3 + WAV + STEMS</li>
+              <li>Includes Premium License</li>
+              <li>Includes Tracked Out files</li>
+              <li>Good for rearrangements</li>
+              <li>Good for mixing & mastering</li>
+            </ul>
+            
+            <button type="submit" onclick="readBtn()">READ LICENSE</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Licensing Info end -->
+    
+    
+    <!-- Mixing Services start -->
+    <div class="service">
+      <div class="container">
+        <h1 class="ser">Mixing Services</h1>
+        <div class="row">
+          <div class="col-4 custom">
+            <img src="img/Png1.png" alt="">
+            <h1>Custom Song Production</h1>
+            <p>Turnaround time: Varies</p>
+          </div>
+          
+          <div class="col-4">
+            <img src="img/Png2.png" alt="">
+            <h1>Mastering</h1>
+            <p>Mastering <br>
+            
+            Turnaround time: 1 day <br>
+            Files we need to get started: Fully Mixed Song or Beat (1 WAV File)<br>
+            Free Revisions: Up to 4 <br>
+            Email files & receipt to: azmaeenrecords@gmail.com</p>
+            <h3>$40</h3>
+          </div>
+          
+          <div class="col-4">
+            <img src="img/Png3.png" alt="">
+            <h1>Vocal Production</h1>
+            <p>Turnaround time: 1 to 3 days <br>
+            Free Revisions: Up to 3 <br>
+            Email files & receipt to: azmaeenrecords@gmail.com</p>
+            <h3>$125</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Mixing Services end-->
+    
+    <!-- contact start -->
+    
+    <div class="contact">
+      <div class="container">
+       <div class="contact-div">
+          <h1>contact</h1>
+          
+          <form action="mailto:azmaeenrecords@gmail.com" method="post" enctype="text/plain">
+          <input type="text" placeholder="YOUR NAME" name="" id="name">
+          <input type="email" placeholder="EMAIL" name="" id="email"><br>
+          <input type="text" placeholder="SUBJECT" name="" id="subject"> <br>
+          <input type="text" placeholder="MASSAGE" name="" id="massage">
+         
+          <input type="submit" value="sent massage" id="submit-massage" 
+          </form>
+          
+          
+       </div>
+      </div>
+    </div>
+    <!-- contact end -->
+    
+    
+    <!-- footer start -->
+    
+    <!-- footer end -->
+    
+    
+    
+    
+    
+    
+    
+      <!-- FOOTER -->
+      <footer class="w-100 py-4 flex-shrink-0">
+        <div class="container py-4">
+          <div class="row gy-4 gx-5">
+            <div class="col-4 ">
+              <h5 class="h1 text-white">Azmaeen Records</h5>
+              <p class="small text-muted">Azmaeen Records is a Islamic record label company founded in Bangladesh in 2014 by Sarfaraz Naheed. Over its first 4 years of operation</p>
+              <p class="small text-muted mb-0">&copy; Copyrights. All rights reserved. <a class="text-primary" href="#">domain.com</a></p>
+            </div>
+            
+            
+            
+            
+            
+            <div class="col-4">
+              <h5 class="text-white mb-3">Quick links</h5>
+              <ul class="list-unstyled text-muted">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Get started</a></li>
+                <li><a href="#">FAQ</a></li>
+              </ul>
+            </div>
+            <div class="col-4 ">
+              <h5 class="text-white mb-3">Newsletter</h5>
+              <form action="#">
+                <div class="input-group mb-3">
+                  <input class="form-control" type="text" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <button class="btn btn-primary" id="button-addon2" type="button"><i class="fas fa-paper-plane"></i></button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </div>
+  
+  <!-- Project -->
+  <script src="main.js"></script>
+  
+  <!-- bootstrap js -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
